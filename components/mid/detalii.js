@@ -5,7 +5,7 @@ import styles from "./styles.module.scss";
 const Detalii = () => {
 	return (
 		<div>
-			<p className={styles.titledetalii}>Detaliile evenimentului.</p>
+			<p className={styles.titledetalii}>Detaliile evenimentului:</p>
 			<p className={styles.cand}>Când și unde ?</p>
 			<div className={styles.grid}>
 				<div className={styles.card}>

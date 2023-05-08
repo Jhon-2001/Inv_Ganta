@@ -8,13 +8,13 @@ const Top = () => {
 			{" "}
 			<div className={styles.top}>
 				<div className={styles.top__container}>
-					<span className={styles.top__text}> Andrei ❤️ Carina </span>
+					<span className={styles.top__text}> Carina ❤️ Andrei </span>
 				</div>
 				<div className={styles.top__main}>
 					{" "}
 					<div className={styles.top__main__img_text}>
-						Andrei & Carina
-						<p>20 August 2023, Targu Mureș</p>
+					<div className={styles.top__main__imgwrap}>Carina & Andrei</div>
+						<p>20 August 2023, Târgu Mureș</p>
 					</div>
 					<img alt="bg" src="../bg1.jpg"></img>
 				</div>

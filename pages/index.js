@@ -22,6 +22,7 @@ export default function Home() {
 			</div>{" "}
 			<Nasii />
 			<Detalii />
+			
 			<Confirmare />
 		</div>
 	);

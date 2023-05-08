@@ -57,19 +57,24 @@ const Confirmare = () => {
 
 	return (
 		<div className={styles.confirmare}>
+			<div className={styles.citat}>
+				{" "}
+				<img alt="bg" src="../citatv2.png"></img>
+			</div>
+
 			<div className={styles.toptext}>
 				<h1>Confirmare</h1>
 				<p>Te așteptăm cu drag!</p>
 				<p>Completează formularul de mai jos</p>
 				<p>pentru a ne anunța decizia ta.</p>
 				<p>Te rugăm să ne comunici decizia ta până</p>
-				<p>la data de</p>
-				<p>1 August 2023.</p>
+				<p></p>
+				<p>la data de 1 August 2023.</p>
 			</div>
 			<div className={styles.formular}>
 				<form onSubmit={handleSubmit}>
 					<label required htmlFor="nume">
-						{!formData.nume && <p className={styles.error}>Vă rugăm introduceti numele</p>}
+						{!formData.nume && <p className={styles.error}>Vă rugăm introduceți numele</p>}
 					</label>
 
 					<input
@@ -80,15 +85,15 @@ const Confirmare = () => {
 						onChange={handleInputChange}
 					/>
 
-					<label htmlFor="numarPersoane">Numar persoane:</label>
+					<label htmlFor="numarPersoane">Număr persoane:</label>
 					<select
 						id="numarPersoane"
 						name="numarPersoane"
 						value={formData.numarPersoane}
 						onChange={handleInputChange}
 					>
-						<option value="Doua persoane">Doua persoane</option>
-						<option value="O persoana">O persoana</option>
+						<option value="Doua persoane">Două persoane</option>
+						<option value="O persoana">O persoană</option>
 					</select>
 
 					<label htmlFor="tipMeniu">Tip meniu:</label>
@@ -121,6 +126,11 @@ const Confirmare = () => {
 						</button>
 					</div>
 				</form>
+			</div>
+			<div className={styles.bot}>
+				{" "}
+				<h2>Mulțumim !</h2>
+				<p>Carina și Andrei</p>
 			</div>
 		</div>
 	);
