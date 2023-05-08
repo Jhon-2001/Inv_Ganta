@@ -1,0 +1,19 @@
+$main-color :#df6e6e;
+$grey-color: #f8f8f8;
+$cutdown-columns: 4;
+$cutdown-rows: 2;
+
+
+.container {
+	max-width: 1600px;
+	margin: 0 auto;
+	background: $grey-color;
+	min-height: 100vh;
+	padding: 1rem;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}

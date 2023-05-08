@@ -1,0 +1,78 @@
+.top {
+	overflow: hidden;
+	&__container {
+		max-width: 95%;
+		margin: 0 auto;
+		padding: 15px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		span {
+			color: $main-color;
+			font-size: 30px;
+			animation: pulse 2s infinite;
+		}
+	}
+	&__main {
+		position: relative;
+		width: 100vw;
+		overflow: hidden;
+		height: 600px;
+		img {
+			display: block; /* set the display of the image to block */
+			position: relative; /* set the position of the image to absolute */
+			// top: 50%; /* set the top position of the image to 50% */
+			left: 50%; /* set the left position of the image to 50% */
+			transform: translate(-50%, -10%) scale(1); /* center the image and set the initial scale to 1 */
+			transition: transform 0.5s ease-out;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			opacity: 0.78;
+			filter: contrast(1.1); /* adjust value as needed */
+
+			object-fit: cover;
+		}
+		&__img_text {
+			z-index: 2;
+			background-color: rgba(28, 28, 28, 0.35);
+			border-radius: 20px;
+			padding: 6px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			text-align: center;
+			color: rgb(255, 253, 253);
+			font-size: 40px;
+			letter-spacing: 2px;
+			p {
+				font-size: 25px;
+				color: #d4d4d4;
+				letter-spacing: 1px;
+			}
+		}
+	}
+}
+@media (max-width: 768px) {
+	.top__main {
+		height: 250px;
+		&__img_text {
+			// top: 45%;
+			transform: translate(-50%, -50%);
+			font-size: 22px;
+			p {
+				font-size: 18px;
+			}
+		}
+	}
+}
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.05);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
