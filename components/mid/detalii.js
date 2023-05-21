@@ -24,7 +24,7 @@ const Detalii = () => {
 						<p>Târgu Mureș, România</p>
 						<a
 							target="_blank"
-							href="https://www.google.com/maps/uv?pb=!1s0x474bb77d16770a49%3A0x1c6e8252cb1f9b2f!3m1!7e115!4s%2Fmaps%2Fplace%2FBiserica%2BOrtodox%25C4%2583%2B%25E2%2580%259EAcoper%25C4%2583m%25C3%25A2ntul%2BMaicii%2BDomnului%25E2%2580%259D%2F%4046.541071%2C24.5405089%2C3a%2C75y%2C70.45h%2C90t%2Fdata%3D*213m4*211e1*213m2*211sM2WvdhB9NsLWx8QqrBR32g*212e0*214m2*213m1*211s0x474bb77d16770a49%3A0x1c6e8252cb1f9b2f%3Fsa%3DX!5zQmlzZXJpY2EgT3J0b2RveMSDIOKAnkFjb3BlcsSDbcOibnR1bCBNYWljaWkgRG9tbnVsdWnigJ0gLSBDxIN1dGFyZSBHb29nbGU!15sCgIgAQ&imagekey=!1e2!2sM2WvdhB9NsLWx8QqrBR32g&hl=ro&sa=X&ved=2ahUKEwjoo9DplYf_AhWSO-wKHZGGBA8Qpx96BAhJEAw"
+							href="https://www.google.com/search?sxsrf=APwXEdehzSSuhcQAyK9KNG39WR2GG5eQMQ:1684390162187&q=Biserica+Ortodox%C4%83+%E2%80%9EAcoper%C4%83m%C3%A2ntul+Maicii+Domnului%E2%80%9D&ludocid=2048718172606929711&gsas=1&ibp=gwp;0,7&lsig=AB86z5VOza1F4JKxiBZ4i1WUfoln&kgs=9fe218505f4e23d1&shndl=-1&source=sh/x/kp/local/2#lpg=cid:CgIgAQ%3D%3D"
 						>
 							Vezi pe hartă →{" "}
 						</a>
