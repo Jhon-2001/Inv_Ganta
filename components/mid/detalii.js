@@ -24,7 +24,7 @@ const Detalii = () => {
 						<p>Târgu Mureș, România</p>
 						<a
 							target="_blank"
-							href="https://www.google.com/maps/place/46%C2%B032'27.8%22N+24%C2%B032'26.0%22E/@46.541066,24.540561,17z/data=!3m1!4b1!4m4!3m3!8m2!3d46.541066!4d24.540561"
+							href="https://www.google.com/maps/uv?pb=!1s0x474bb77d16770a49%3A0x1c6e8252cb1f9b2f!3m1!7e115!4s%2Fmaps%2Fplace%2FBiserica%2BOrtodox%25C4%2583%2B%25E2%2580%259EAcoper%25C4%2583m%25C3%25A2ntul%2BMaicii%2BDomnului%25E2%2580%259D%2F%4046.541071%2C24.5405089%2C3a%2C75y%2C70.45h%2C90t%2Fdata%3D*213m4*211e1*213m2*211sM2WvdhB9NsLWx8QqrBR32g*212e0*214m2*213m1*211s0x474bb77d16770a49%3A0x1c6e8252cb1f9b2f%3Fsa%3DX!5zQmlzZXJpY2EgT3J0b2RveMSDIOKAnkFjb3BlcsSDbcOibnR1bCBNYWljaWkgRG9tbnVsdWnigJ0gLSBDxIN1dGFyZSBHb29nbGU!15sCgIgAQ&imagekey=!1e2!2sM2WvdhB9NsLWx8QqrBR32g&hl=ro&sa=X&ved=2ahUKEwjoo9DplYf_AhWSO-wKHZGGBA8Qpx96BAhJEAw"
 						>
 							Vezi pe hartă →{" "}
 						</a>
