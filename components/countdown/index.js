@@ -28,7 +28,7 @@ export default function Countdown({ date }) {
 				<h1>Ne căsătorim !</h1>
 				<p>Te invităm la nunta noastră !</p>
 				<p className={styles.text}>
-					Ne dorim din suflet să ne poți fi alături și să marcăm împreună ziua în care destinele
+					Ne dorim din suflet să ne poți fii alături și să marcăm împreună ziua în care destinele
 					noastre vor merge pe același drum.
 				</p>
 			</div>
