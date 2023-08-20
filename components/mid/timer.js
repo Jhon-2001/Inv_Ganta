@@ -5,7 +5,7 @@ import Countdown from "../countdown";
 const Timer = () => {
 	return (
 		<div>
-			<Countdown date={new Date(2023, 7, 20)} />
+			<Countdown date={new Date(2023, 7, 21)} />
 		</div>
 	);
 };
